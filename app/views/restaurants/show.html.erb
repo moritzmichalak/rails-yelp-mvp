@@ -1,0 +1,6 @@
+<h1><%= @restaurant.name%></h1>
+  <h2>Address: <%= @restaurant.address %></h2>
+  <h2>#phone: <%= @restaurant.phone_number %></h2>
+  <h2>Style: <%= @restaurant.category %></h2>
+    <p> <%= link_to "Rate this place", new_restaurant_review_path(@restaurant) %></p>
+
